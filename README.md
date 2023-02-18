@@ -5,8 +5,6 @@
 
 [![GitHub Build](https://github.com/milan-miscevic/phpdocless/workflows/Test/badge.svg?branch=master)](https://github.com/milan-miscevic/phpdocless/actions)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=milan-miscevic_phpdocless&metric=alert_status)](https://sonarcloud.io/dashboard?id=milan-miscevic_phpdocless)
-[![Type Coverage](https://shepherd.dev/github/milan-miscevic/phpdocless/coverage.svg)](https://shepherd.dev/github/milan-miscevic/phpdocless)
-[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fmilan-miscevic%2Fphpdocless%2Fmaster)](https://dashboard.stryker-mutator.io/reports/github.com/milan-miscevic/phpdocless/master)
 
 @todo
 
