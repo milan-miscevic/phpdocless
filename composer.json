@@ -1,15 +1,11 @@
 {
-    "name": "milan-miscevic/php-skeleton",
-    "description": "Starting point for other PHP projects",
+    "name": "milan-miscevic/phpdocless",
+    "description": "@todo",
     "license": "MIT",
     "type": "project",
     "keywords": [
-        "php project",
-        "php template",
-        "skeleton",
-        "skeleton application",
-        "template",
-        "template application"
+        "phpdoc",
+        "removal"
     ],
     "authors": [
         {
@@ -18,30 +14,23 @@
         }
     ],
     "require": {
-        "php": "^8"
+        "php": "^8.0",
+        "nikic/php-parser": "^4.15"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^3.13.2",
-        "infection/infection": "^0.26.16",
-        "phpstan/phpstan": "^1.9.7",
-        "phpstan/phpstan-strict-rules": "^1.4.4",
-        "phpunit/phpunit": "^9.5.27",
-        "vimeo/psalm": "^5.4.0"
+        "phpunit/phpunit": "^9.6"
     },
     "autoload": {
         "psr-4": {
-            "Mmm\\PhpSkeleton\\": "src/"
+            "Mmm\\PhpDocLess\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mmm\\PhpSkeleton\\Tests\\": "tests/"
+            "Mmm\\PhpDocLess\\Tests\\": "tests/"
         }
     },
     "config": {
-        "allow-plugins": {
-            "infection/extension-installer": false
-        },
         "sort-packages": true
     }
 }

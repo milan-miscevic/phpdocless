@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Mmm\PhpSkeleton\Tests; // #todo change namespace
+namespace Mmm\PhpDocLess\Tests;
 
-use Mmm\PhpSkeleton\Dummy;
+use Mmm\PhpDocLess\Dummy;
 use PHPUnit\Framework\TestCase;
 
 class DummyTest extends TestCase
