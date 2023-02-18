@@ -6,7 +6,6 @@ services:
     build: ./php80-cli/
     volumes:
       - ..:/app
-      - ../logs:/var/log/xdebug
     working_dir: /app
 
   php81-cli:
