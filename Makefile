@@ -3,6 +3,9 @@ PHP=php80-cli
 
 build: install
 
+cli:
+	$(DOCKER) run $(PHP) bash
+
 install:
 	$(DOCKER) build
 	$(DOCKER) run --rm $(PHP) composer install
