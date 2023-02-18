@@ -18,6 +18,7 @@
         "nikic/php-parser": "^4.15"
     },
     "require-dev": {
+        "phpstan/phpstan": "^1.9",
         "phpunit/phpunit": "^9.6"
     },
     "autoload": {
